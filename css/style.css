@@ -1,0 +1,146 @@
+@font-face {
+    font-family: mProximaNova-Reg;
+    src: url('../font/ProximaNova-Reg.otf');
+    }
+body,html{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    font-family: 'mProximaNova-Reg';
+    margin: 0px;
+    background: #f2f5f8;
+}
+.wrapper-outer{
+    width: 100%;
+    background: #f2f5f8;
+    height: 100%;
+    display: inherit;
+}
+.container{
+    width: 960px;
+    margin: auto;
+}
+.bar{
+    background-color: #23123a;
+    height: 30px;
+}
+.link{
+    text-align: center;
+    background-color: white;
+    height: 30px;
+    padding-top: 15px
+}
+.link a{
+    float: left;
+    width: 30%;
+    color: black;
+    text-decoration: none;
+}
+.banner{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.review{}
+.review .left{
+    float: left;
+}
+.review .right{
+    float: right;
+}
+.apply{
+    background: white;
+    height: 150px;
+    padding: 20px;
+}
+.apply.fr{
+    background: transparent;
+    height: auto;
+    padding: 20px;
+}
+.apply .left{
+    float: left;
+    width: 50%;
+    font-size: 15px;
+    font-weight: 700;
+}
+.apply.fr .left{
+    float: none;
+    width: 100%;
+    font-size: 24px;
+    margin: 0px;
+}
+.apply .left img{
+    width: 100%;
+}
+.apply .left .c-card{
+    
+}
+.apply .left .c-card .img{
+    float: left;
+    width: 50%;
+}
+.apply .left .c-card .img img{
+    width: 100%;
+}
+.apply .left .c-card .a-ads{
+    float: right;
+    width: 50%;
+    text-align: center;
+    line-height: 24px;
+}
+.apply .left .c-card .a-ads p{
+    text-align: center;
+
+}
+.apply .left .c-card .a-ads span{
+    background: #59d8d1;
+    color: white;
+    border-radius: 50px;
+    font-size: 11px;
+    padding: 7px 20px;
+} 
+.apply .left button{
+    border: 1px solid #fb6f3e;
+    color: white;
+    background-color: #fb6f3e;
+    box-shadow: none;
+    border-radius: 3px;
+    padding: 7px 17px;
+    width: 96%;
+    margin: 10px 2px;
+}
+.apply .right{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.apply .right p{
+    margin: 0px;
+    line-height: 27px;
+    text-align: left;
+}
+.clear{
+    clear: both;
+}
+@media screen and (max-width: 480px) {
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .wrapper-inner{
+        height: 100%;
+    }
+    .apply .right{
+        float: none;
+        width: 100%;
+        text-align: right;
+    }
+    .banner {
+        height: 200px!important;
+    }
+    .apply .left{
+        width: 100%;
+        float: none;
+    }
+  }
